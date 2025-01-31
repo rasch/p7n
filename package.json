@@ -1,0 +1,36 @@
+{
+  "name": "p7n",
+  "version": "0.1.0",
+  "description": "an ADT for working with high precision numbers",
+  "type": "module",
+  "files": [ "dist" ],
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "git clean -dfx",
+    "test": "node src/index.spec.js",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "keywords": [
+    "precision",
+    "decimals",
+    "rounding",
+    "currency",
+    "sum",
+    "fold",
+    "algebra",
+    "ADT",
+    "Monoid"
+  ],
+  "author": "Rand Schneck <i@rasch.co>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasch/p7n.git"
+  },
+  "devDependencies": {
+    "fvb": "^0.1.0",
+    "typescript": "^5.7.3"
+  }
+}

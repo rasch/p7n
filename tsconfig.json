@@ -1,0 +1,54 @@
+{
+  "include": ["src/**/*.js"],
+  "compilerOptions": {
+    /* Type Checking */
+
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    /* Modules */
+
+    "module": "nodenext",
+    "noUncheckedSideEffectImports": true,
+    "resolveJsonModule": true,
+
+    /* Emit */
+
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": true,
+    "noEmitOnError": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+
+    /* JavaScript Support */
+
+    "allowJs": true,
+    "checkJs": true,
+
+    /* Interop Constraints */
+
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    /* Language and Environment */
+
+    "lib": ["es2022", "dom"],
+    "target": "es2022",
+
+    /* Completeness */
+
+    "skipLibCheck": true
+  }
+}
